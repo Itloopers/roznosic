@@ -12,7 +12,7 @@ public class Oatmeal extends Product {
 
 	@Override
 	public BigDecimal price() {
-		return new BigDecimal(4.5).setScale(2);
+		return new BigDecimal(4.5);
 	}
 
 }

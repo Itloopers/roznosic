@@ -18,7 +18,7 @@ public class RaisinsOatmeal extends Decorator {
 
 	@Override
 	public BigDecimal price() {
-		return product.price().add(new BigDecimal(3.0)).setScale(2);
+		return product.price().add(new BigDecimal("3"));
 	}
 
 }
